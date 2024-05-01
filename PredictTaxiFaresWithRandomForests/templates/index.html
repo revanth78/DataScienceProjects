@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Fare Prediction</title>
+</head>
+<body>
+    <h1>ML Fare Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="feature1">Trip Distance(m):</label>
+        <input type="text" id="feature1" name="feature1"><br><br>
+        <label for="feature2">Pickup Location:</label>
+        <input type="text" id="feature2" name="feature2"><br><br>
+        <label for="feature3">Drop off Location:</label>
+        <input type="text" id="feature3" name="feature3"><br><br>
+        <label for="feature4">Month(in num):</label>
+        <input type="text" id="feature4" name="feature4"><br><br>
+        <label for="feature5">Day(in num):</label>
+        <input type="text" id="feature5" name="feature5"><br><br>
+        <label for="feature6">Day of week(in num):</label>
+        <input type="text" id="feature6" name="feature6"><br><br>
+        <label for="feature7">Hour of day(in num):</label>
+        <input type="text" id="feature7" name="feature7"><br><br>
+        <label for="feature8">Trip Duration(in secs):</label>
+        <input type="text" id="feature8" name="feature8"><br><br>
+       
+
+        <!-- Add more input fields for additional features as needed -->
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
